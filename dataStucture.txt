@@ -1,5 +1,0 @@
-========================
-DATA STRUCTURE
-========================
-- definition
-data structure is a collection of data!

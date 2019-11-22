@@ -1,0 +1,29 @@
+========================
+DATA STRUCTURE
+========================
+- DEFINITION
+data structure is a collection of value, which can have relationship among them and they can have functions applied to them.
+
+
+Think of Data Structure as a container for examples: { A backPack, a shell, a frigidaire etc}
+
+Each of those container have their own purpose about containing object for examples I can put fruit in a shell its gonna go bad, I need to put it a place where its can be store well and I can retrieve it well.
+That's all is DATA STRUCTURE.
+
+
+That's why even about value on computer science based on our scenario, we will need to choose one data structure over another.
+
+  ==============
+||DATA STRUCTURE||
+  ==============
+**ARRAY
+**STACKS
+**QUEUES
+**LINKED LISTS
+**TREES
+**TRIES
+**GRAPHS
+**HASH TABLES
+
+
+[Data structure + Algorithms = Programs]
