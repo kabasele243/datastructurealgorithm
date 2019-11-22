@@ -16,6 +16,8 @@ That's why even about value on computer science based on our scenario, we will n
   ==============
 ||DATA STRUCTURE||
   ==============
+There is plenty of Data structure but here we're only gonna focus on those one : 
+
 **ARRAY
 **STACKS
 **QUEUES

@@ -1,0 +1,16 @@
+  =====================
+||        ARRAY        ||
+  =====================
+
+  1. DEFINITION
+
+  2. BIG 0
+
+- ACCESS ==== 0(1)
+- PUSH   ==== 0(1)
+- INSERT ==== 0(n)
+- DELETE ==== 0(n)
+
+  3. STATIC VS DYNAMIC ARRAYS
+
+        An array created at compile time by specifying size in the source code has a fixed size and cannot be modified at run time. The process of allocating memory at compile time is known as static memory allocation and the arrays that receives static memory allocation are called static arrays
