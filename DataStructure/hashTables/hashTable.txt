@@ -1,0 +1,7 @@
+   ================
+||   HASH TABLES    ||
+   ================
+
+
+1. definition
+Hash Tables, hash Maps, dictionnaries, Object!! 
