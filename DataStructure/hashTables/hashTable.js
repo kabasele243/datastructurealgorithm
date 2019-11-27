@@ -70,7 +70,7 @@ console.log(myHash.keys());
 ////CHALLENGE
 ////FIRST RECURRING ITEM
 
-function recurring(arr) {
+function recurring(arr, k) {
     let map = {};
 
     for (let i = 0; i < arr.length; i++) {
