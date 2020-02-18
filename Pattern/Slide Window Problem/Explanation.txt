@@ -1,0 +1,28 @@
+Sliding Window problems are a type of problem that frequently gets asked during software engineering interviews and one we teach at Outco. They are a subset of dynamic programming problems, though the approach to solving them is quite different from the one used in solving tabulation or memoization problems. So different in fact, that to a lot of engineers it isn’t immediately clear that there even is a connection between the two at all.
+This blog post aims to clear up a lot of confusion around solving this kind of problem and answer some common questions engineers typically have. Hopefully, it will show that the approach is actually relatively straightforward if you have the right thinking, and once you solve a few of these problems you should be able to solve any variation of them that gets thrown your way.
+
++++++++++++++++++++++++++++
++How do you identify them?+
++++++++++++++++++++++++++++
+
+
+So the first thing you want to be able to do is to identify a problem that uses a sliding window paradigm. Luckily, there are some common giveaways:
+The problem will involve a data structure that is ordered and iterable like an array or a string
+You are looking for some subrange in that array/string, like a longest, shortest or target value.
+There is an apparent naive or brute force solution that runs in O(N²), O(2^N) or some other large time complexity.
+But the biggest giveaway is that the thing you are looking for is often some kind of optimal, like the longest sequence or shortest sequence of something that satisfies a given condition exactly.
+And the amazing thing about sliding window problems is that most of the time they can be solved in O(N) time and O(1) space complexity.
+For example, in Bit Flip, you are looking for the longest continuous sequence of 1s that you can form in a given array of 0s and 1s, if you have the ability to flip some number of those 0s to 1s.
+
+
+In Minimum Window Substring, you are looking for the shortest sequence of characters in a string that contains all of the characters in a given set.
+
+++++++++++++++++++++++++++++++++++
++Why is this dynamic programming?+
+++++++++++++++++++++++++++++++++++
+
+
+This search for an optimum hints at the relationship between sliding window problems and other dynamic problems. You are using the optimal substructure property of the problem to guarantee that an optimal solution to a subproblem can be reused to help you find the optimal solution to a larger problem.
+
+
+You are also using the fact that there are overlapping subproblems in the naive approach, to reduce the amount of work you have to do. Take the Minimum Window Substring problem. You are given a string, and a set of characters you need to look for in that string. There might be multiple overlapping substrings that contain all the characters you are looking for, but you only want the shortest one. These characters can also be in any order.
